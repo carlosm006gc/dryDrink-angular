@@ -1,0 +1,50 @@
+.div-header {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 38px 60px -35px #00000081;
+
+    .div-img {
+      z-index: 0;
+      position: relative;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+
+      }
+    }
+  
+    .div-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 1000;
+      position: absolute;
+      height: 150px;
+      align-items: center;
+  
+      .div-ul-01,
+      .div-ul-02 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        list-style: none;
+        font-style: bold;
+        
+        li {
+          padding: 0px 10px;
+  
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+          }
+        }
+      }
+    }
+  }
+  
