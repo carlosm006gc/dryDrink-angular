@@ -25,9 +25,10 @@
     height: 100px;
     align-items: center;
     box-shadow: inset 0px 100px 20px -20px rgba(0, 0, 0, 0.5);
+    transition: all 0.8s;
 
     &.black-bg {
-      transition: all 0.8s;
+      transition: all 0.9s;
       background-color: black;
     }
 
@@ -38,15 +39,27 @@
       position: relative;
       list-style: none;
       font-style: bold;
-      
+      font-size: 16px;
+      letter-spacing: 2px;
       li {
         padding: 0px 10px;
 
         a {
           text-decoration: none;
           color: white;
-          font-size: larger;
+          font-size: 18px;
+          :hover {
+            transition: all 0.9s;
+            color: rgb(211, 67, 1);
+
+          }
+        
         }
+       
+          :hover {
+            color: rgb(211, 67, 1);
+            transition: all 0.9s;
+          }
       }
     }
   }
