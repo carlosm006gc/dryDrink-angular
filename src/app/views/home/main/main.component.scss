@@ -1,14 +1,12 @@
-div{
-    list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    z-index: 1;
-    img {
-    max-width: 100%;
-    height: auto;
+.div-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        color: #d34301;
+    }
+    h4{
+        padding: 5%;
+
+    }
 }
-}
-  
