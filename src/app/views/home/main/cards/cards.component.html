@@ -1,0 +1,21 @@
+<div class="main-cards">
+  <div class="card" (mouseenter)="showText[0] = true" (mouseleave)="showText[0] = false">
+    <img src="/assets/imagens/main-card-01.jpg" alt="Imagem do card">
+    <div class="overlay" [ngClass]="{'show': showText[0] }">
+        <p>A origem do coquetel Margarita permanece incerta, apesar de várias teorias. Uma delas sugere que foi inventada na década de 1930 por Carlos "Danny" Herrera em Tijuana, México, para uma dançarina chamada Margarita Cansino, que depois se tornou a famosa atriz Rita Hayworth. No entanto, esta história não foi verificada, deixando a verdadeira origem do coquetel ainda em debate.</p>
+    </div>
+</div>
+
+<div class="card" (mouseenter)="showText[1] = true" (mouseleave)="showText[1] = false">
+  <img src="/assets/imagens/main-card-02.jpg" alt="Imagem do card">
+      <div class="overlay" [ngClass]="{'show': showText[1]}">
+        <p>O champanhe foi descoberto por acidente no final do século XVII na região de Champagne, França. Devido ao clima frio, os vinhos fermentavam duas vezes, criando gás dióxido de carbono nas garrafas e algumas explodiam. Os viticultores locais desenvolveram técnicas para controlar essa fermentação secundária, resultando na efervescência característica do champanhe.</p>
+      </div>
+  </div>  
+  <div class="card" (mouseenter)="showText[2] = true" (mouseleave)="showText[2] = false">
+    <img src="/assets/imagens/main-card-03.jpg" alt="Imagem do card">
+      <div class="overlay" [ngClass]="{'show': showText[2]}">
+        <p>Uma curiosidade interessante sobre refrigerantes é que, inicialmente, eles eram comercializados como remédios. No século XIX, muitos refrigerantes, incluindo o popular Coca-Cola, eram vendidos em farmácias como tônicos e elixires medicinais. Acredita-se que suas propriedades efervescentes e às vezes seu teor de cafeína fossem vistos como benéficos para a saúde. Com o tempo, essas bebidas se tornaram mais populares como refrescos e suas propriedades medicinais foram deixadas de lado.</p>
+      </div>
+  </div>
+</div>

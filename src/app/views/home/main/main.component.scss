@@ -4,9 +4,63 @@
     align-items: center;
     h1{
         color: #d34301;
+        font-weight: 500;    
     }
     h4{
-        padding: 5%;
+        padding: 2% 25%;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: large;
+    }
+    .div-main-img-center{
+        display: flex;
+        width: 50%;
+        height: 200px;
+        margin-bottom: 30px;
+        position: relative;
+        justify-content: center;
 
+        img{
+            overflow: hidden;
+            object-fit: cover;
+            border: none;
+            border-radius: 10px;
+
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            background: #d3430187;
+            border: none;
+            border-radius: 10px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 16px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            padding: 1%;
+
+            &:hover{
+                background: #ff620000;
+                transition: all 0.8s;
+            }
+        }
+    }
+    .div-main-button-center{
+        display: flex;
+        background: #d34301;
+        border: none;
+        border-radius: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding: 1%;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: black;
+            transition: all 0.8s;
+        }
     }
 }
